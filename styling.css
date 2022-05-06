@@ -1,0 +1,24 @@
+.parent{
+    background-color: white;
+}
+.child1{
+    width: calc(50vw - 9vh) ;
+    height: 42.5vh;
+    background-color: blue;
+}
+
+
+.child2{
+    width: 15vh;
+    height: 15vh;
+    background-color: red;
+
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}

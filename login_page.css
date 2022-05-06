@@ -1,0 +1,161 @@
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:  #FAFAFA;
+}
+.phone_img{
+    width: 350px;
+}
+.right_column{
+    min-width: 350px;
+    min-height: 400px;
+}
+.upper_part{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 180px;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #dbdbdbdb;
+    min-width: 350px;
+    height: 400px;
+    background-color: white;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    
+}
+input{
+    width: 80%;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 5px;
+    border: #dbdbdbdb 1px solid;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    
+}
+.ID{
+    margin-top: 30px;
+   
+}
+.log_in_button{
+    margin: 10px 15px 10px 15px;
+    background-color: #0095F6;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    width: 80%;
+}
+.or_line{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+    margin: 10px 0px 20px 0px;
+}
+.or{
+    color: #8e8e8e;
+}
+
+.or_bar{
+    width: 40%;
+    height: 0px;
+    border: solid #8e8e8e 1px;
+    border-bottom: none;    
+}
+.login_helper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+}
+.facebook_link{
+    color: #385185;
+    font-weight: bold;
+}
+.forgot_password{
+    color: #385185;
+    margin-bottom: 12px;
+    font-size: small;
+}
+i{
+    margin-right: 5px;
+}
+.sign_in_container{
+    border: #dbdbdbdb solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+    margin-top: 10px;
+    background-color: white;
+    
+}
+.sign_in{
+    font-weight: bold;
+    color: #4998f6;
+}
+.please_download{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.store_imgs{
+    display: flex;
+    justify-content: center;
+}
+.AppStore_img{
+    height: 40px;
+}
+.GooglePlay_img{
+    height: 40px;
+}
+.under_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 15px;
+    align-content: center;
+    justify-self: flex-end;
+    margin-top: 55px;
+}
+.under_line{
+    display: flex;
+    color: #8e8e8e;
+    font-size: small;
+    justify-content: center;
+}
+ul{
+     flex-wrap: wrap;
+}
+li{
+    min-width: 70px; 
+}
+.lang_meta{
+    margin-top: 10px;
+}

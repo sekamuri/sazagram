@@ -6,51 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main_page.css">
 </head>
 <body>
-    <div class="menu_container">
-        <img src="../sazagram/1651581994398-2.png" alt="main_logo">
+    <div class="navigation_bar">
+        <img class="main_logo" src="./MainLogo.png" alt="main_logo">
         <form action="">
-            <input type="search">
+            <input class="search" type="search" placeholder="검색">
         </form>
-        <a href=""><i class="fa-solid fa-house"></i></a>
-        <a href=""><i class="fa-brands fa-telegram"></i></a>
-        <a href=""><i class="fa-solid fa-square-plus"></i></a>
-        <a href=""><i class="fa-solid fa-compass"></i></a>
-        <a href=""><i class="fa-solid fa-heart"></i></a>
-        <a href=""><i class="fa-solid fa-circle"></i></a>
+        <div class="navigation_icon">
+            <a href=""><i class="fa-solid fa-house"></i></a>
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+            <a href=""><i class="fa-solid fa-square-plus"></i></a>
+            <a href=""><i class="fa-solid fa-compass"></i></a>
+            <a href=""><i class="fa-solid fa-heart"></i></a>
+            <img class="topside_prof" src="./chiwawa.jpg" alt="user_profile">
+        </div>
     </div>
     <div class="story_container">
-        <img src="..//sazagram/test.png" alt="user_profile">
-        <span>user_name</span>
+        <div class="story_per_person">
+            <img class="story_chiwawa" src="./chiwawa.jpg" alt="user_profile">
+            <span class="story_ID">fake_hodu</span>
+        </div>
+        <div class="story_per_person">
+            <img class="story_chiwawa" src="./chiwawa.jpg" alt="user_profile">
+            <span class="story_ID">fake_hodu</span>
+        </div><div class="story_per_person">
+            <img class="story_chiwawa" src="./chiwawa.jpg" alt="user_profile">
+            <span class="story_ID">fake_hodu</span>
+        </div><div class="story_per_person">
+            <img class="story_chiwawa" src="./chiwawa.jpg" alt="user_profile">
+            <span class="story_ID">fake_hodu</span>
+        </div><div class="story_per_person">
+            <img class="story_chiwawa" src="./chiwawa.jpg" alt="user_profile">
+            <span class="story_ID">fake_hodu</span>
+        </div>
     </div>
     <div class="feed_container">
         <div class="profile_bar">
-            <img src="..//sazagram/test.png" alt="user_profile">
-            <span>pugings</span>
+            <div class="feed_profile" >
+                <img class="feed_profile_img" src="./chiwawa.jpg" alt="user_profile">
+                <span>fake_hodu</span>
+            </div>
             <a href=""><i class="fa-solid fa-ellipsis"></i></a>
         </div>
         <div class="feed_pic">
-            <img src="..//sazagram/1651581994398-0.png" alt="pug_img">
+            <img class="feed_img" src="./penguin.jpg" alt="penguin">
         </div>
         <div class="icon_bar">
-            <a href=""><i class="fa-solid fa-heart"></i></a>
-            <a href=""><i class="fa-solid fa-comment"></i></a>
-            <a href=""><i class="fa-brands fa-telegram"></i></a>
-            <a href=""><i class="fa-solid fa-bookmark"></i></a>
+            <div class="icon_bar1">
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-comment"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <div class="icon_bar2">
+                <a href=""><i class="fa-solid fa-bookmark"></i></a>
+            </div>
         </div>
-        <div>
-            <span>조회 1,857회</span>
-        </div>
-        <div>
-            <span><a href="">pugings</a> Bath time</span>
+        <div class="feed_specifics">
+            <div class="number_of_likes">
+                <span>좋아요 1,857개</span>
+            </div>
+            <span><a class="main_feed_ID" href="">fake_hodu</a> penguin time</span>
             <span>17시간전</span>
         </div>
-        <div>
+        <div class="comment_bar">
             <a href=""><i class="fa-solid fa-face-smile"></i></a>
-            <form action="">
-                <input type="comment">
-                <input type="submit">
+            <form class="comment_parent" action="">
+                <input class="comment_space" type="comment" placeholder="댓글 달기...">
+                <button class="submit">게시</button>
             </form>
         </div>
     </div>
