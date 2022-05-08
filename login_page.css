@@ -1,4 +1,10 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 a{
     text-decoration: none;
 }
@@ -38,13 +44,30 @@ body{
     background-color: white;
     
 }
-form{
+
+
+
+
+
+.log_in_tool{
     display: flex;
     align-items: center;
     flex-direction: column;
     width:100%;
-    
 }
+input:focus{
+    display: flex;
+    align-items: flex-start;
+    font-size: 30%;
+    padding-bottom: 20px;
+    border: #dbdbdbdb 1px solid;
+}
+
+
+
+
+
+
 input{
     width: 80%;
     padding: 10px 0 10px 10px;
@@ -54,13 +77,11 @@ input{
     background-color: #FAFAFA;
     
 }
-.ID{
-    margin-top: 30px;
-   
-}
+
+
 .log_in_button{
     margin: 10px 15px 10px 15px;
-    background-color: #0095F6;
+    background-color: #B2DFFC ;
     padding: 5px;
     border-radius: 3px;
     color: white;
@@ -69,6 +90,12 @@ input{
     font-size: medium;
     width: 80%;
 }
+
+.log_in_button:hover{
+    background-color:  #0095F6;
+
+}
+
 .or_line{
     width: 80%;
     display: flex;
@@ -158,4 +185,8 @@ li{
 }
 .lang_meta{
     margin-top: 10px;
+}
+
+input{
+    outline: none;
 }

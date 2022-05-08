@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 500px;
+    height: 500px;
+   position: relative;
+    
+}
+.lion_img{
+    width: 100%;
+    height: 100%;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 300%;
+} 
+.cover:hover{
+    opacity: 1;
+}
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 10%;
+    height: 30px;
+    border: 1px black solid;
+    position: relative;
+    font-size: 20px;
+}
+.search{
+    width: 100%;
+    padding-left: 25px;
+    
+}
+i{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+input:focus ~ i{
+    display: none;
+}      
+.search:focus{
+    padding-left: 0;
+}
