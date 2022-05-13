@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart_img{
+    width: 100px;
+    animation: beatibng;
+    transition: all 2s;
+}
+
+
+@keyframes heartBeat{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.15);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    75%{
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.heart_img{
+    animation: heartBeat 1s infinite    ;   
+}
